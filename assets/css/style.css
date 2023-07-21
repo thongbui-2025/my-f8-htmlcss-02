@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* Common */
+.content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0 16px;
+    min-width: 118px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 24.5px;
+    color: #FFF;
+    background-color: #171100;
+}
+
+/* ---------- Header ---------- */
+.header-fixed {
+    background-color: #FFFCF4;
+    position: sticky;
+    top: -28px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 36px 0 8px;
+}
+
+.navbar ul {
+    display: flex;
+    margin-left: auto;
+}
+
+.navbar ul a {
+    position: relative;
+    font-size: 1.6rem;
+    padding: 8px 21px;  
+    color: #5F5B53;
+}
+
+.navbar ul a:hover,
+.navbar ul li.active a {
+    text-shadow: 1px 0 0 currentColor;
+    color: #171100;
+}
+
+.navbar ul li.active a::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 12px;
+    height: 2px;
+    bottom: 6px;
+    left: 21px;
+    border-radius: 1px;
+    background-color: #171100;
+}
+
+.navbar .actions a {
+    min-width: 144px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
